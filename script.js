@@ -47,10 +47,10 @@ const timer = () => {
         tilNewYear.textContent = remains;
     };
 
-    getDayActual(date);
-    getTimeActual(date);
-    getGreetingsActual(date);
-    getTilNewYear(date);
+    getDayActual();
+    getTimeActual();
+    getGreetingsActual();
+    getTilNewYear();
 };
 
 timer();
